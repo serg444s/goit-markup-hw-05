@@ -631,6 +631,14 @@ img {
   margin-bottom: 8px;
 }
 
+.modal-user-comment {
+  margin-bottom: 16px;
+}
+
+.modal-checkbox {
+  margin-bottom: 24px;
+}
+
 .mb16 {
   margin-bottom: 16px;
 }
