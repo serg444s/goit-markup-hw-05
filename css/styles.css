@@ -516,6 +516,65 @@ img {
   margin-right: 80px;
 }
 
+.footer-input {
+  width: 264px;
+  height: 40px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  color: #fff;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+}
+
+.footer-form {
+}
+
+.footer-input::placeholder {
+  color: #fff;
+}
+
+.foter-modal-text {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+}
+
+.fotter-btn-subscribe {
+  min-width: 165px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  background: #4d5ae5;
+  padding: 8px 24px;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  border: none;
+}
+
+.foter-form {
+  display: flex;
+  gap: 24px;
+}
+
+.foter-form-svg {
+  fill: #ffffff;
+  margin-left: 16px;
+}
+
 /*-------MODAL-------*/
 
 .backdrop {
@@ -727,6 +786,7 @@ img {
   min-width: 169px;
   height: 56px;
   padding: 16px 32px;
+  margin: 0 auto;
   background-color: #4d5ae5;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   color: #fff;
@@ -738,63 +798,4 @@ img {
   cursor: pointer;
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.footer-input {
-  width: 264px;
-  height: 40px;
-  background-color: transparent;
-  border: 1px solid #fff;
-  border-radius: 4px;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-  color: #fff;
-  font-size: 12px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  padding-left: 16px;
-}
-
-.footer-form {
-}
-
-.footer-input::placeholder {
-  color: #fff;
-}
-
-.foter-modal-text {
-  color: #fff;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  margin-bottom: 16px;
-}
-
-.fotter-btn-subscribe {
-  min-width: 165px;
-  height: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 4px;
-  background: #4d5ae5;
-  padding: 8px 24px;
-  color: #fff;
-  text-align: center;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  cursor: pointer;
-  border: none;
-}
-
-.foter-form {
-  display: flex;
-  gap: 24px;
-}
-
-.foter-form-svg {
-  fill: #ffffff;
-  margin-left: 16px;
 }
